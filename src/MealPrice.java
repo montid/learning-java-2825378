@@ -18,5 +18,6 @@ public class MealPrice {
 
         double individualMealPrice = groupTotalMealPrice / 5;
         System.out.println(individualMealPrice);
+
     }
 }
