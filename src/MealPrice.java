@@ -6,7 +6,7 @@ public class MealPrice {
         double tip = tipRate * listedMealPrice;
         double tax = taxRate * listedMealPrice;
         double result = listedMealPrice + tip + tax;
-        System.out.println("Your total mail price is: " + result);
+        System.out.println("Your total meal price is: " + result);
         return result;
     }
 
@@ -18,6 +18,5 @@ public class MealPrice {
 
         double individualMealPrice = groupTotalMealPrice / 5;
         System.out.println(individualMealPrice);
-
     }
 }
