@@ -11,11 +11,11 @@ public class TriangleMain {
         double triangleBArea = triangleB.findArea();
         System.out.println("Triangle B area: " + triangleBArea);
 
-        // accessing non-static triangle instance attributes or variables
+        // accessing non-static triangle instance variables or attributes
         System.out.println("Triangle A hypotenuse: " + triangleA.sideLenThree);
         System.out.println("Triangle B base: " + triangleB.base);
 
-        // accessing static triangle attribute
+        // accessing static triangle class variable or attribute
         System.out.println("Triangle nr of sides: " + Triangle.numOfSides);
 
     }
