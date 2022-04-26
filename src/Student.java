@@ -7,10 +7,10 @@ public class Student {
     String studentLastName;
     int expectedYearToGraduate;
     double studentGPA;
-    boolean declaredMajor;
+    String declaredMajor;
 
     // Student class constructor able to create instance
-    public Student(String studentFirstName, String studentLastName, int expectedYearToGraduate, double studentGPA, boolean declaredMajor) {
+    public Student(String studentFirstName, String studentLastName, int expectedYearToGraduate, double studentGPA, String declaredMajor) {
         this.studentFirstName = studentFirstName;
         this.studentLastName = studentLastName;
         this.expectedYearToGraduate = expectedYearToGraduate;
@@ -19,7 +19,7 @@ public class Student {
     }
 
     // defining behaviour or better method, in this case find area method declaration
-    public double incrementExpectedGraduationYear(){
-        return (this.expectedYearToGraduate + 1);
+    public void incrementExpectedGraduationYear(){
+        this.expectedYearToGraduate = this.expectedYearToGraduate +1;
     }
 }
